@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F3AEDDD25ECF44E00EE6FA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDDC25ECF44E00EE6FA6 /* AppDelegate.swift */; };
-		8F3AEDDF25ECF44E00EE6FA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDDE25ECF44E00EE6FA6 /* SceneDelegate.swift */; };
 		8F3AEDE125ECF44E00EE6FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDE025ECF44E00EE6FA6 /* ContentView.swift */; };
 		8F3AEDE325ECF44F00EE6FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AEDE225ECF44F00EE6FA6 /* Assets.xcassets */; };
 		8F3AEDE625ECF44F00EE6FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AEDE525ECF44F00EE6FA6 /* Preview Assets.xcassets */; };
-		8F3AEDE925ECF44F00EE6FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AEDE725ECF44F00EE6FA6 /* LaunchScreen.storyboard */; };
 		8F3AEDF525ECF4E500EE6FA6 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AEDF125ECF4E400EE6FA6 /* menu.json */; };
 		8F3AEDF625ECF4E500EE6FA6 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDF225ECF4E400EE6FA6 /* Menu.swift */; };
 		8F3AEDF725ECF4E500EE6FA6 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDF325ECF4E400EE6FA6 /* Helper.swift */; };
 		8F3AEDF825ECF4E500EE6FA6 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDF425ECF4E500EE6FA6 /* Order.swift */; };
 		8F3AEDFB25ECFA5400EE6FA6 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDFA25ECFA5400EE6FA6 /* ItemRow.swift */; };
 		8F3AEDFF25ED06E600EE6FA6 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEDFE25ED06E600EE6FA6 /* ItemDetail.swift */; };
+		8F3AEE0225ED1C6D00EE6FA6 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEE0125ED1C6D00EE6FA6 /* iDineApp.swift */; };
+		8F3AEE2325ED1F9C00EE6FA6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEE2225ED1F9C00EE6FA6 /* OrderView.swift */; };
+		8F3AEE2625ED209800EE6FA6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEE2525ED209800EE6FA6 /* MainView.swift */; };
+		8F3AEE2D25ED239400EE6FA6 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3AEE2C25ED239400EE6FA6 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F3AEDD925ECF44E00EE6FA6 /* iDine-HWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDine-HWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F3AEDDC25ECF44E00EE6FA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F3AEDDE25ECF44E00EE6FA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8F3AEDE025ECF44E00EE6FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F3AEDE225ECF44F00EE6FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3AEDE525ECF44F00EE6FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8F3AEDE825ECF44F00EE6FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3AEDEA25ECF44F00EE6FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F3AEDF125ECF4E400EE6FA6 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		8F3AEDF225ECF4E400EE6FA6 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -36,6 +34,10 @@
 		8F3AEDF425ECF4E500EE6FA6 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		8F3AEDFA25ECFA5400EE6FA6 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		8F3AEDFE25ED06E600EE6FA6 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		8F3AEE0125ED1C6D00EE6FA6 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
+		8F3AEE2225ED1F9C00EE6FA6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		8F3AEE2525ED209800EE6FA6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8F3AEE2C25ED239400EE6FA6 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +70,19 @@
 		8F3AEDDB25ECF44E00EE6FA6 /* iDine-HWS */ = {
 			isa = PBXGroup;
 			children = (
+				8F3AEDE225ECF44F00EE6FA6 /* Assets.xcassets */,
+				8F3AEDE025ECF44E00EE6FA6 /* ContentView.swift */,
 				8F3AEDF325ECF4E400EE6FA6 /* Helper.swift */,
+				8F3AEE0125ED1C6D00EE6FA6 /* iDineApp.swift */,
+				8F3AEDEA25ECF44F00EE6FA6 /* Info.plist */,
+				8F3AEDFE25ED06E600EE6FA6 /* ItemDetail.swift */,
+				8F3AEDFA25ECFA5400EE6FA6 /* ItemRow.swift */,
+				8F3AEE2525ED209800EE6FA6 /* MainView.swift */,
+				8F3AEE2C25ED239400EE6FA6 /* CheckoutView.swift */,
 				8F3AEDF125ECF4E400EE6FA6 /* menu.json */,
 				8F3AEDF225ECF4E400EE6FA6 /* Menu.swift */,
 				8F3AEDF425ECF4E500EE6FA6 /* Order.swift */,
-				8F3AEDDC25ECF44E00EE6FA6 /* AppDelegate.swift */,
-				8F3AEDDE25ECF44E00EE6FA6 /* SceneDelegate.swift */,
-				8F3AEDE025ECF44E00EE6FA6 /* ContentView.swift */,
-				8F3AEDFE25ED06E600EE6FA6 /* ItemDetail.swift */,
-				8F3AEDFA25ECFA5400EE6FA6 /* ItemRow.swift */,
-				8F3AEDE225ECF44F00EE6FA6 /* Assets.xcassets */,
-				8F3AEDE725ECF44F00EE6FA6 /* LaunchScreen.storyboard */,
-				8F3AEDEA25ECF44F00EE6FA6 /* Info.plist */,
+				8F3AEE2225ED1F9C00EE6FA6 /* OrderView.swift */,
 				8F3AEDE425ECF44F00EE6FA6 /* Preview Content */,
 			);
 			path = "iDine-HWS";
@@ -150,7 +153,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3AEDE925ECF44F00EE6FA6 /* LaunchScreen.storyboard in Resources */,
 				8F3AEDE625ECF44F00EE6FA6 /* Preview Assets.xcassets in Resources */,
 				8F3AEDF525ECF4E500EE6FA6 /* menu.json in Resources */,
 				8F3AEDE325ECF44F00EE6FA6 /* Assets.xcassets in Resources */,
@@ -165,9 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F3AEDF825ECF4E500EE6FA6 /* Order.swift in Sources */,
-				8F3AEDDD25ECF44E00EE6FA6 /* AppDelegate.swift in Sources */,
-				8F3AEDDF25ECF44E00EE6FA6 /* SceneDelegate.swift in Sources */,
+				8F3AEE2325ED1F9C00EE6FA6 /* OrderView.swift in Sources */,
+				8F3AEE2D25ED239400EE6FA6 /* CheckoutView.swift in Sources */,
+				8F3AEE0225ED1C6D00EE6FA6 /* iDineApp.swift in Sources */,
 				8F3AEDFB25ECFA5400EE6FA6 /* ItemRow.swift in Sources */,
+				8F3AEE2625ED209800EE6FA6 /* MainView.swift in Sources */,
 				8F3AEDF725ECF4E500EE6FA6 /* Helper.swift in Sources */,
 				8F3AEDFF25ED06E600EE6FA6 /* ItemDetail.swift in Sources */,
 				8F3AEDF625ECF4E500EE6FA6 /* Menu.swift in Sources */,
@@ -176,17 +180,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8F3AEDE725ECF44F00EE6FA6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F3AEDE825ECF44F00EE6FA6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8F3AEDEB25ECF44F00EE6FA6 /* Debug */ = {
