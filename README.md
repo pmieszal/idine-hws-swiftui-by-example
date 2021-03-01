@@ -1,1 +1,1 @@
-# idine-hws-swiftui-by-example
+# iDine - SwiftUI example app build with Hacking with Swift by Paul Hudson
