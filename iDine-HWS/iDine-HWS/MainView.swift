@@ -12,12 +12,19 @@ struct MainView: View {
                 .tabItem {
                     Label("Order", systemImage: "square.and.pencil")
                 }
+            
+            FavoriteView()
+                .tabItem {
+                    Label("Favorite", systemImage: "star")
+                }
         }
     }
 }
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView().environmentObject(Order())
+        MainView()
+            .environmentObject(Order())
+            .environmentObject(Favorite())
     }
 }

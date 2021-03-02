@@ -27,6 +27,7 @@ struct OrderView: View {
             .listStyle(InsetGroupedListStyle())
             .toolbar {
                 EditButton()
+                    .disabled(order.items.isEmpty)
             }
         }
     }
